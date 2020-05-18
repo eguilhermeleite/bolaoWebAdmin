@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+   <!DOCTYPE html>
+
+   <html lang="pt-br">
+      <head>
+         <title>Bolão Web</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+         <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+         <style>
+            .font1 {
+                font-family: 'Fredericka the Great', cursive;
+            }
+         </style>
+         <style>
+            .ghost{height:50px; width: 100%};
+
+         </style>
+      </head>
+      <body class="bg-dark">
+         <div class="row">
+            <h2 class="font1 col-12 mt-5 text-light" align="center">Faça Login Para Acessar</h2>
+         </div>
+         <div class="row pl-5 pr-5" >
+            <form class=" col-12" action="admin.php?action=login" method="post" >
+               <div align="center">
+                  <input required type="email" name="email" id="email"  class="form-control mb-3 col col-xl-3 col col-lg-4  col col-md-4  col col-sm-6 mt-3"  placeholder="Digite seu e-mail">
+                  <input required type="password" name="senha" id="senha" class="form-control col col-xl-3 col col-lg-4  col col-md-4  col col-sm-6 mb-3 " placeholder="Digite sua senha">
+                  <button type="submit" class="btn btn-success mr-2" data-dismiss="modal">Entrar</button>
+                  <a class="btn btn-warning text-dark ml-5" href="index.php" role="button">Voltar</a>
+               </div>
+
+            </form>
+         </div>
+      </body>
+   </html>

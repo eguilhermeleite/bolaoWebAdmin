@@ -1,0 +1,38 @@
+
+<div class="container bg-dark pl-4 pt-3 pr-5 pl-5" >
+   <form action="{action}" method="post">
+      <div class="row">
+         <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 text-light lead mt-2" >
+            <label for="data">Data</label>
+            <input type="name" name="data" required class="form-control" value="{id}" style="display:{none}">
+            <input type="date" name="data" required class="form-control" value="{data}">
+         </div>
+         <div class="form-group col-xl-6 col-lg-6 col-md-6 col-sm-6 text-light lead mt-2 ">
+            <label for="concurso">Concurso N°</label>
+            <input type="number" name="concurso" required class="form-control" min="1" value="{concurso}">
+         </div>
+         <div class="form-group col-xl-3 col-lg-4 col-md-4 col-sm-4 text-light lead mt-2 ">
+            <label for="n1">N°1</label>
+            <input type="number" name="n1" required class="form-control"  min="1" max="80" value="{n1}">
+         </div>
+         <div class="form-group col-xl-3 col-lg-4 col-md-4 col-sm-4 text-light lead mt-2 ">
+            <label for="n1">N°2</label>
+            <input type="number" name="n2" required class="form-control"  min="1" max="80" value="{n2}">
+         </div>
+         <div class="form-group col-xl-3 col-lg-4 col-md-4 col-sm-4 text-light lead mt-2 ">
+            <label for="n1">N°3</label>
+            <input type="number" name="n3" required class="form-control"  min="1" max="80" value="{n3}">
+         </div>
+         <div class="form-group col-xl-3 col-lg-4 col-md-4 col-sm-4 text-light lead mt-2 ">
+            <label for="n1">N°4</label>
+            <input type="number" name="n4" required class="form-control"  min="1" max="80" value="{n4}">
+         </div>
+         <div class="form-group col-xl-3 col-lg-4 col-md-4 col-sm-4 text-light lead mt-2 ">
+            <label for="n1">N°5</label>
+            <input type="number" name="n5" required class="form-control"  min="1" max="80" value="{n5}">
+         </div>
+      </div>
+      <button type="submit" class="btn btn-primary ml-1 mb-5 mt-4 mr-4" >{botao}</button>
+      <a href="admin.php?action=excluirConc&id={id}" style="display:{excluir}" class="btn btn-danger mt-4 mb-5">Excluir</a>
+   </form>
+</div>
